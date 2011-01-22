@@ -1,0 +1,10 @@
+Szablon XSLT do transformacji danych terytorialnych GUS do formatu CSV.
+
+Pliki "predefiniowane" znajdują się na stronie:
+
+http://www.stat.gov.pl/broker/access/prefile/listPreFiles.jspa
+
+usage:
+
+$ xsltproc teryt2csv.xsl <PLIK.xml> > PLIK.csv
+
